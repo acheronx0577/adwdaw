@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cursor-Skills — agent skills, Design Pro, Caveman, Impeccable, and cursor-starter for Cursor and Claude.ai." />
+  <title>Cursor-Skills — Agent Skills Bundle</title>
+  <link rel="stylesheet" href="fonts/fonts.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <a href="#" class="nav-logo">Cursor<span>Skills</span></a>
+    <ul class="nav-links" role="list">
+      <li><a href="#layout">Layout</a></li>
+      <li><a href="#install">Install</a></li>
+      <li><a href="#design-pro">Design Pro</a></li>
+      <li><a href="#memory-bank">Memory Bank</a></li>
+      <li><a href="#superpowers">Superpowers</a></li>
+    </ul>
+    <button class="nav-burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <nav class="nav-overlay" id="overlay" aria-label="Mobile menu">
+    <a href="#layout">Layout</a>
+    <a href="#install">Install</a>
+    <a href="#design-pro">Design Pro</a>
+    <a href="#memory-bank">Memory Bank</a>
+    <a href="#superpowers">Superpowers</a>
+  </nav>
+
+  <main>
+
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-body wrap">
+        <div class="hero-eyebrow reveal">
+          <span class="sticker">✦ Private bundle</span>
+          <span class="mn">github.com/acheronx0577/Cursor-Skills</span>
+        </div>
+        <h1 class="display display-hero reveal d1">Cursor<br /><em style="color:var(--accent1)">Skills.</em></h1>
+      </div>
+      <div class="hero-foot">
+        <p class="ss reveal d2" style="max-width:480px; opacity:0.7;">Agent skills, Design Pro, Caveman, Impeccable, and a <strong>cursor-starter</strong> template — Memory Bank rules, commands, and hooks for Cursor and Claude.ai.</p>
+        <div class="hero-actions reveal d3">
+          <a href="#install" class="btn">Install on Cursor →</a>
+          <a href="https://github.com/acheronx0577/Cursor-Skills" class="btn btn-outline" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span class="marquee-item"><span class="marquee-dot"></span>install-user-global.ps1</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>then /mb &lt;task&gt; or /design-pro craft for UI</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>caveman lite default</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>design-pro.zip for Claude.ai</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Memory Bank x Superpowers</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>install-user-global.ps1</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>then /mb &lt;task&gt; or /design-pro craft for UI</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>caveman lite default</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>design-pro.zip for Claude.ai</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Memory Bank x Superpowers</span>
+      </div>
+    </div>
+
+    <section class="section" id="layout" aria-label="Repository layout">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-head-left">
+            <div class="section-eyebrow reveal"><span class="sticker sticker-mint">✦ Repo layout</span></div>
+            <h2 class="display display-lg reveal d1">What's<br />inside.</h2>
+          </div>
+          <p class="ss reveal d2" style="max-width:300px; opacity:0.65;">Paths mirror the README. Clone once, install globally, optionally add the project starter per repo.</p>
+        </div>
+        <div class="layout-grid">
+          <article class="layout-card reveal d1">
+            <p class="layout-path"><code>skills/</code></p>
+            <h3 class="layout-title">Vendored skills</h3>
+            <p class="layout-desc">Design Pro, Impeccable, UI/UX Pro Max, Superpowers workflow, Caveman — installed under <code>%USERPROFILE%\.cursor\</code>.</p>
+          </article>
+          <article class="layout-card reveal d2">
+            <p class="layout-path"><code>claude-chat-website/</code></p>
+            <h3 class="layout-title">Claude.ai only</h3>
+            <p class="layout-desc"><code>design-pro.zip</code> for Claude Settings → Capabilities → Skills. Not installed by Cursor scripts.</p>
+          </article>
+          <article class="layout-card reveal d3">
+            <p class="layout-path"><code>cursor-starter/.cursor/</code></p>
+            <h3 class="layout-title">Per-project starter</h3>
+            <p class="layout-desc">Rules, commands (<code>/van</code>, <code>/mb</code>, <code>/caveman</code>), and Memory Bank per project.</p>
+          </article>
+          <article class="layout-card reveal d4">
+            <p class="layout-path"><code>scripts/</code></p>
+            <h3 class="layout-title">Install scripts</h3>
+            <p class="layout-desc"><code>install-user-global.ps1</code>, <code>install-project-starter.ps1</code>. See <code>ATTRIBUTION.md</code> for licenses.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="install" aria-label="Cursor installation">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-head-left">
+            <div class="section-eyebrow reveal"><span class="sticker sticker-coral">✦ Cursor install</span></div>
+            <h2 class="display display-lg reveal d1">Get it<br />running.</h2>
+          </div>
+        </div>
+        <div class="install-steps">
+          <div class="install-block reveal d1">
+            <h3 class="install-label"><span class="step-num-inline">01</span> Global (recommended)</h3>
+            <p class="ss ss-muted" style="margin-bottom:0.75rem;">Skills, commands, and hooks under your user <code>.cursor</code> folder:</p>
+            <pre class="code-block" tabindex="0" data-copy=".\scripts\install-user-global.ps1"><code>.\scripts\install-user-global.ps1</code></pre>
+          </div>
+          <div class="install-block reveal d2">
+            <h3 class="install-label"><span class="step-num-inline">02</span> Skip marketplace Superpowers</h3>
+            <p class="ss" style="opacity:0.7; margin-bottom:0.75rem;">Do <strong>not</strong> enable marketplace <a href="https://cursor.com/marketplace/superpowers" target="_blank" rel="noopener noreferrer">Superpowers</a> — this repo replaces it. If already enabled:</p>
+            <pre class="code-block" tabindex="0" data-copy=".\scripts\disable-marketplace-superpowers.ps1"><code>.\scripts\disable-marketplace-superpowers.ps1</code></pre>
+          </div>
+          <div class="install-block reveal d3">
+            <h3 class="install-label"><span class="step-num-inline">03</span> Per project</h3>
+            <p class="ss ss-muted" style="margin-bottom:0.75rem;">Then <code>/mb &lt;your first task&gt;</code> (or <code>/van</code> for full init):</p>
+            <pre class="code-block" tabindex="0" data-copy='.\scripts\install-project-starter.ps1 -Target "C:\path\to\your-project"'><code>.\scripts\install-project-starter.ps1 -Target "C:\path\to\your-project"</code></pre>
+          </div>
+          <aside class="callout reveal d4" role="note">
+            <p class="mn" style="margin-bottom:0.5rem;">New machine checklist</p>
+            <p class="ss ss-muted">Clone repo → <code>install-user-global.ps1</code> → enable marketplace <a href="https://cursor.com/marketplace" target="_blank" rel="noopener noreferrer">GSAP</a> → skip marketplace Superpowers → optional <code>install-project-starter.ps1</code> per repo.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-strip" id="claude" aria-label="Claude.ai installation">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-head-left">
+            <div class="section-eyebrow reveal"><span class="sticker sticker-dark">✦ Claude.ai</span></div>
+            <h2 class="display display-lg reveal d1" style="color:var(--bg);">Not for<br />Cursor.</h2>
+          </div>
+          <p class="ss reveal d2" style="max-width:320px; color:var(--bg); opacity:0.55;">Upload the mega zip at claude.ai — one bundle, all dependencies.</p>
+        </div>
+        <div class="compare-grid reveal d2">
+          <div class="compare-card">
+            <p class="mn" style="opacity:0.5; color:var(--bg);">Cursor</p>
+            <p class="compare-val">install-user-global.ps1</p>
+            <p class="compare-sub">Source: <code>skills/design-pro/SKILL.md</code></p>
+          </div>
+          <div class="compare-card compare-card-accent">
+            <p class="mn" style="opacity:0.5;">Claude.ai</p>
+            <p class="compare-val">Upload design-pro.zip only</p>
+            <p class="compare-sub">Say <code>Use design-pro to …</code> (no slash on web)</p>
+          </div>
+        </div>
+        <div class="terminal reveal d3" style="margin-top:1.5rem;">
+          <div class="terminal-bar">
+            <div class="terminal-dot" style="background:#ff5f57;"></div>
+            <div class="terminal-dot" style="background:#febc2e;"></div>
+            <div class="terminal-dot" style="background:#28c840;"></div>
+            <span style="margin-left:0.5rem; font-family:var(--font-mono); font-size:0.65rem; color:#555;">rebuild zip</span>
+          </div>
+          <div class="terminal-body">
+            <div class="t-comment"># After changing skills/ — do NOT use Windows Compress to ZIP</div>
+            <div><span class="t-prompt">›</span> <span class="t-cmd">.\claude-chat-website\build-design-pro-mega.ps1</span></div>
+            <div class="t-out">Mega zip: exactly one SKILL.md at root; modules as references/*/REFERENCE.md</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="design-pro" aria-label="Design Pro commands">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-head-left">
+            <div class="section-eyebrow reveal"><span class="sticker sticker-purple">✦ Design Pro</span></div>
+            <h2 class="display display-lg reveal d1"><code>/design-pro</code><span class="display-subline">commands.</span></h2>
+          </div>
+          <p class="ss ss-muted reveal d2" style="max-width:280px;">Superpowers + Impeccable + UI/UX Pro Max. Click the command or the Use column to copy.</p>
+        </div>
+        <div class="readme-table-wrap reveal d1">
+          <table class="readme-table">
+            <thead><tr><th scope="col">Command</th><th scope="col">Use</th></tr></thead>
+            <tbody>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro brainstorm &lt;idea&gt;">/design-pro brainstorm</button></td><td>Explore UI ideas and direction</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro plan &lt;spec&gt;">/design-pro plan</button></td><td>Implementation plan from approved design</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro craft &lt;feature&gt;">/design-pro craft</button></td><td>End-to-end UI feature cycle</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro critique &lt;target&gt;">/design-pro critique</button></td><td>UX and polish review</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro audit &lt;target&gt;">/design-pro audit</button></td><td>A11y, performance, responsive, theming</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro polish &lt;target&gt;">/design-pro polish</button></td><td>Final visual and interaction pass</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro bolder &lt;target&gt;">/design-pro bolder</button></td><td>More distinctive UI</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro quieter &lt;target&gt;">/design-pro quieter</button></td><td>Calmer, less noisy UI</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro animate &lt;target&gt;">/design-pro animate</button></td><td>Motion and micro-interactions</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro clarify &lt;target&gt;">/design-pro clarify</button></td><td>Copy and microcopy</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro delight &lt;target&gt;">/design-pro delight</button></td><td>Personality and polish</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro overdrive &lt;target&gt;">/design-pro overdrive</button></td><td>Ambitious effects</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro distill &lt;target&gt;">/design-pro distill</button></td><td>Declutter and simplify</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro extract &lt;target&gt;">/design-pro extract</button></td><td>Patterns and design system</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro harden &lt;target&gt;">/design-pro harden</button></td><td>Production edge cases</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro colorize &lt;target&gt;">/design-pro colorize</button></td><td>Color and palette</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro layout &lt;target&gt;">/design-pro layout</button></td><td>Spacing and hierarchy</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro typeset &lt;target&gt;">/design-pro typeset</button></td><td>Typography</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro shape &lt;feature&gt;">/design-pro shape</button></td><td>UX brief before build</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro teach">/design-pro teach</button></td><td>Product and design context</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro document">/design-pro document</button></td><td>DESIGN.md from visual system</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro optimize &lt;target&gt;">/design-pro optimize</button></td><td>UI performance</td></tr>
+              <tr><td><button type="button" class="table-cmd" data-copy="/design-pro verify &lt;target&gt;">/design-pro verify</button></td><td>Evidence before done</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="other-skills reveal d2">
+          <h3 class="display display-sm" style="margin-bottom:1rem;">Other skills</h3>
+          <div class="other-skills-grid">
+            <article class="cmd-card other-skill-card" data-cat="build">
+              <div class="cmd-icon" aria-hidden="true">🗣️</div>
+              <h4 class="cmd-name">Caveman</h4>
+              <p class="cmd-desc"><code>skills/caveman/</code> — terse chat; <strong>lite</strong> default; <code>/caveman</code> to escalate.</p>
+            </article>
+            <article class="cmd-card other-skill-card" data-cat="evaluate">
+              <div class="cmd-icon" aria-hidden="true">✦</div>
+              <h4 class="cmd-name">Impeccable</h4>
+              <p class="cmd-desc"><code>skills/impeccable/</code> — craft standards; used by Design Pro.</p>
+            </article>
+            <article class="cmd-card other-skill-card" data-cat="refine">
+              <div class="cmd-icon" aria-hidden="true">🧠</div>
+              <h4 class="cmd-name">Memory Bank</h4>
+              <p class="cmd-desc"><code>cursor-starter/.cursor/memory-bank/</code> — <code>/mb</code> front door; <code>/van</code> + phase cmds optional.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="memory-bank" aria-label="Memory Bank">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-head-left">
+            <div class="section-eyebrow reveal"><span class="sticker">✦ Memory Bank</span></div>
+            <h2 class="display display-lg reveal d1">One command<br />to remember.</h2>
+          </div>
+          <p class="ss ss-muted reveal d2" style="max-width:300px;">Each task tracks <code>superpowersSkills</code>, <code>superpowersPhase</code>, and <code>uiAffected</code>.</p>
+        </div>
+        <div class="steps-grid steps-grid-3 reveal d1">
+          <div class="step"><span class="step-num">mb</span><h3 class="step-title"><code>/mb &lt;task&gt;</code></h3><p class="step-desc">Start or re-init. Bare <code>/mb</code> shows phase and next command.</p></div>
+          <div class="step"><span class="step-num">↯</span><h3 class="step-title">Phases</h3><p class="step-desc"><code>/plan</code> · <code>/creative</code> · <code>/build</code> · <code>/reflect</code> · <code>/archive</code></p></div>
+          <div class="step"><span class="step-num">UI</span><h3 class="step-title"><code>uiAffected</code></h3><p class="step-desc">When true, Design Pro, Impeccable, and UI/UX Pro Max apply.</p></div>
+        </div>
+        <div class="terminal reveal d2" style="margin-top:2rem;">
+          <div class="terminal-bar">
+            <div class="terminal-dot" style="background:#ff5f57;"></div>
+            <div class="terminal-dot" style="background:#febc2e;"></div>
+            <div class="terminal-dot" style="background:#28c840;"></div>
+            <span style="margin-left:0.5rem; font-family:var(--font-mono); font-size:0.65rem; color:#555;">typical flow</span>
+          </div>
+          <div class="terminal-body">
+            <div><span class="t-prompt">›</span> <span class="t-cmd">/mb</span> <span class="t-arg">Add newsletter signup with validation</span></div>
+            <div><span class="t-prompt">›</span> <span class="t-cmd">/mb</span></div>
+            <div><span class="t-prompt">›</span> <span class="t-cmd">/plan</span></div>
+            <div><span class="t-prompt">›</span> <span class="t-cmd">/mb</span></div>
+            <div><span class="t-prompt">›</span> <span class="t-cmd">/build</span></div>
+            <div><span class="t-prompt">›</span> <span class="t-cmd">/mb</span></div>
+            <div><span class="t-prompt">›</span> <span class="t-cmd">/archive</span></div>
+          </div>
+        </div>
+        <details class="details-block reveal d3">
+          <summary>All Memory Bank commands</summary>
+          <div class="readme-table-wrap" style="margin-top:1rem;">
+            <table class="readme-table">
+              <thead><tr><th>Command</th><th>Use</th></tr></thead>
+              <tbody>
+                <tr><td><code>/mb &lt;task&gt;</code></td><td>Start or re-init (runs VAN setup)</td></tr>
+                <tr><td><code>/mb</code></td><td>Continue — phase, skills, next command</td></tr>
+                <tr><td><code>/plan</code></td><td>Planning phase</td></tr>
+                <tr><td><code>/creative</code></td><td>Design / creative decisions</td></tr>
+                <tr><td><code>/build</code></td><td>Implementation</td></tr>
+                <tr><td><code>/reflect</code></td><td>Post-task reflection</td></tr>
+                <tr><td><code>/archive</code></td><td>Archive completed work</td></tr>
+                <tr><td><code>/van &lt;task&gt;</code></td><td>Full Memory Bank init (advanced)</td></tr>
+                <tr><td><code>/l1</code>–<code>/l4</code></td><td>Force complexity level shortcuts</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="section" id="superpowers" aria-label="Superpowers skills">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-head-left">
+            <div class="section-eyebrow reveal"><span class="sticker sticker-mint">✦ Superpowers</span></div>
+            <h2 class="display display-lg reveal d1">Workflow<br />skills.</h2>
+          </div>
+          <p class="ss ss-muted reveal d2" style="max-width:300px;">Vendored under <code>skills/</code>. Invoke by name — not slash commands.</p>
+        </div>
+        <div class="readme-table-wrap reveal d1">
+          <table class="readme-table">
+            <thead><tr><th>Skill</th><th>Use</th></tr></thead>
+            <tbody>
+              <tr><td><code>brainstorming</code></td><td>Before creative work</td></tr>
+              <tr><td><code>writing-plans</code></td><td>Plan after approved spec</td></tr>
+              <tr><td><code>verification-before-completion</code></td><td>Evidence before claiming done</td></tr>
+              <tr><td><code>systematic-debugging</code></td><td>Bugs and test failures</td></tr>
+              <tr><td><code>test-driven-development</code></td><td>Before implementation</td></tr>
+              <tr><td><code>executing-plans</code></td><td>Execute written plans</td></tr>
+              <tr><td><code>subagent-driven-development</code></td><td>Parallel tasks in one session</td></tr>
+              <tr><td><code>dispatching-parallel-agents</code></td><td>Independent parallel work</td></tr>
+              <tr><td><code>using-git-worktrees</code></td><td>Isolated branches / worktrees</td></tr>
+              <tr><td><code>finishing-a-development-branch</code></td><td>Merge / PR / cleanup</td></tr>
+              <tr><td><code>receiving-code-review</code></td><td>Handle review feedback</td></tr>
+              <tr><td><code>requesting-code-review</code></td><td>Pre-merge review</td></tr>
+              <tr><td><code>using-superpowers</code></td><td>Skill discovery at session start</td></tr>
+              <tr><td><code>writing-skills</code></td><td>Author and validate skills</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="upstream-panel reveal d2">
+          <h3 class="display display-sm">Upstream sources</h3>
+          <div class="upstream-grid">
+            <a class="upstream-link" href="https://github.com/obra/superpowers" target="_blank" rel="noopener noreferrer">obra/superpowers</a>
+            <a class="upstream-link" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener noreferrer">pbakaus/impeccable</a>
+            <a class="upstream-link" href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener noreferrer">JuliusBrussee/caveman</a>
+            <a class="upstream-link" href="https://github.com/vanzan01/cursor-memory-bank" target="_blank" rel="noopener noreferrer">vanzan01/cursor-memory-bank</a>
+          </div>
+          <p class="upstream-note">After vendoring: commit <code>skills/</code>, re-run install scripts, rebuild zip if needed.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" aria-label="Call to action">
+      <div class="wrap">
+        <div class="section-eyebrow reveal" style="justify-content:center;">
+          <span class="sticker" style="background:rgba(255,255,255,0.15); color:#fff; border-color:rgba(255,255,255,0.3);">✦ Ready</span>
+        </div>
+        <h2 class="display display-lg reveal d1" style="text-align:center; margin-top:0.75rem;">Clone.<br />Install.<br /><em>Build.</em></h2>
+        <p class="ss cmd-line reveal d2" style="text-align:center; margin:1.25rem auto 2rem;">Start with global install, then <code>/mb &lt;task&gt;</code> or <code>/design-pro craft</code> when UI is in scope.</p>
+        <div style="display:flex; justify-content:center; gap:0.75rem; flex-wrap:wrap;" class="reveal d3">
+          <a href="#install" class="btn" style="background:#fff; color:var(--accent1); border-color:#fff;">Install guide →</a>
+          <a href="https://github.com/acheronx0577/Cursor-Skills" class="btn" style="background:transparent; color:#fff; border-color:rgba(255,255,255,0.4);" target="_blank" rel="noopener noreferrer">GitHub repo</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" aria-label="Site footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <p class="footer-logo">Cursor<span>Skills</span></p>
+          <p class="footer-tagline">Private bundle — agent skills, Design Pro, Memory Bank, and cursor-starter.</p>
+        </div>
+        <nav aria-label="Documentation">
+          <p class="footer-col-title">Docs</p>
+          <ul class="footer-links" role="list">
+            <li><a href="#layout">Repo layout</a></li>
+            <li><a href="#install">Cursor install</a></li>
+            <li><a href="#claude">Claude.ai</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Skills">
+          <p class="footer-col-title">Skills</p>
+          <ul class="footer-links" role="list">
+            <li><a href="#design-pro">Design Pro</a></li>
+            <li><a href="#memory-bank">Memory Bank</a></li>
+            <li><a href="#superpowers">Superpowers</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-legal">Based on <a href="https://github.com/acheronx0577/Cursor-Skills" target="_blank" rel="noopener noreferrer">acheronx0577/Cursor-Skills</a> README</p>
+        <span class="sticker" style="font-size:0.6rem;">✦ /design-pro help</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

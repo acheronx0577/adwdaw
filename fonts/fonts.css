@@ -1,0 +1,91 @@
+/* Local fonts — Array, Technor, Skateblade, Comico */
+
+@font-face {
+  font-family: "Array Wide";
+  src:
+    url("../array/Array-SemiboldWide.woff2") format("woff2"),
+    url("../array/Array-SemiboldWide.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Array";
+  src:
+    url("../array/Array-Semibold.woff2") format("woff2"),
+    url("../array/Array-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Technor";
+  src:
+    url("../technor/Technor-Regular.woff2") format("woff2"),
+    url("../technor/Technor-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Technor";
+  src:
+    url("../technor/Technor-Medium.woff2") format("woff2"),
+    url("../technor/Technor-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Technor";
+  src:
+    url("../technor/Technor-Semibold.woff2") format("woff2"),
+    url("../technor/Technor-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Technor";
+  src:
+    url("../technor/Technor-Bold.woff2") format("woff2"),
+    url("../technor/Technor-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Skateblade";
+  src:
+    url("../skate-blade/Skateblade-Regular.ttf") format("truetype"),
+    url("../skate-blade/Skateblade-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Skateblade";
+  src:
+    url("../skate-blade/Skateblade-RegularItalic.otf") format("opentype"),
+    url("../skate-blade/Skateblade-RegularItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comico";
+  src:
+    url("../comico/Comico-Regular.woff2") format("woff2"),
+    url("../comico/Comico-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
